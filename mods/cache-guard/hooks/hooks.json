@@ -1,0 +1,4 @@
+{
+  "description": "Cache-prefix hygiene: reports cache_read vs input tokens after each turn, warns when a prompt section changes between renders, audits message fidelity across compaction, optionally vetoes auto-compact to keep the prefix intact.",
+  "modules": ["./register.ts"]
+}

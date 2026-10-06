@@ -1,0 +1,4 @@
+{
+  "description": "House style: appends one static style section to the system prompt on the shared side of the cache boundary.",
+  "modules": ["./register.ts"]
+}

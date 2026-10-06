@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "claudecode-plus-mod",
+  "version": "0.1.0",
+  "description": "Claude Code Mod collection: prompt hygiene and more.",
+  "owner": {
+    "name": "claudecode-plus-mod"
+  },
+  "plugins": [
+    {
+      "name": "plus",
+      "description": "All claudecode-plus-mod Mods in one install: prompt-shield, cache-guard, human-tone and clear-intent.",
+      "version": "0.5.1",
+      "source": "./bundle",
+      "category": "productivity"
+    },    {
+      "name": "prompt-shield",
+      "description": "Strip invisible fingerprint characters from outgoing prompts and audit what the model actually receives.",
+      "version": "0.1.1",
+      "source": "./mods/prompt-shield",
+      "category": "security"
+    },
+    {
+      "name": "cache-guard",
+      "description": "Stabilize the prompt-cache prefix, audit compaction fidelity, and report real cache hit numbers per turn.",
+      "version": "0.4.1",
+      "source": "./mods/cache-guard",
+      "category": "productivity"
+    },
+    {
+      "name": "human-tone",
+      "description": "Pin a house style into the system prompt: direct, human answers with no filler praise or over-formatting.",
+      "version": "0.1.1",
+      "source": "./mods/human-tone",
+      "category": "productivity"
+    },
+    {
+      "name": "clear-intent",
+      "description": "Attach an intent protocol to every prompt: restate the goal, separate confirmed from assumed, ask before acting on vague input.",
+      "version": "0.1.1",
+      "source": "./mods/clear-intent",
+      "category": "productivity"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "human-tone",
+  "version": "0.1.1",
+  "description": "Pin a house style into the system prompt: direct, human answers with no filler praise or over-formatting.",
+  "author": {
+    "name": "claudecode-plus-mod"
+  }
+}

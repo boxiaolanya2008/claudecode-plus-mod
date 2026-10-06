@@ -1,0 +1,8 @@
+{
+  "name": "prompt-shield",
+  "version": "0.1.1",
+  "description": "Strip invisible fingerprint characters from outgoing prompts and audit what the model actually receives.",
+  "author": {
+    "name": "claudecode-plus-mod"
+  }
+}

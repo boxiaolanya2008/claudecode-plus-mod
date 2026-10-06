@@ -1,0 +1,8 @@
+{
+  "name": "cache-guard",
+  "version": "0.4.1",
+  "description": "Stabilize the prompt-cache prefix, audit compaction fidelity, and report real cache hit numbers per turn.",
+  "author": {
+    "name": "claudecode-plus-mod"
+  }
+}

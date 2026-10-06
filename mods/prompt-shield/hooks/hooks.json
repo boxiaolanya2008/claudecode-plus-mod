@@ -1,0 +1,4 @@
+{
+  "description": "Prompt hygiene: sanitizes prompt.submit text and context, prompt.context blocks, prompt.attachment text and attribution.text of invisible fingerprint characters, logs what was removed.",
+  "modules": ["./register.ts"]
+}

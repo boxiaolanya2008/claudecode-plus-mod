@@ -1,0 +1,4 @@
+{
+  "description": "Bundle entry: composes every Mod in this marketplace through one register.",
+  "modules": ["./register.ts"]
+}

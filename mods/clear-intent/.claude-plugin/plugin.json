@@ -1,0 +1,8 @@
+{
+  "name": "clear-intent",
+  "version": "0.1.1",
+  "description": "Attach an intent protocol to every prompt: restate the goal, separate confirmed from assumed, ask before acting on vague input.",
+  "author": {
+    "name": "claudecode-plus-mod"
+  }
+}

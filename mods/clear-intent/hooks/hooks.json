@@ -1,0 +1,4 @@
+{
+  "description": "Intent protocol: attaches a short confirmation-first note beside every submitted prompt, stronger when the input looks vague.",
+  "modules": ["./register.ts"]
+}
