@@ -20,24 +20,23 @@ Claude Code Mod 合集：以函数钩子（`register(on, options)`）实现、�
 marketplace；用户把 marketplace 加进来并以 `user` scope 安装插件，
 该 Mod 就对这台机器上所有项目生效。
 
-1. 把本仓库推到 GitHub（假设为 `<owner>/claudecode-plus-mod`
-   ，下文出现处自行替换）：
+1. 本仓库已发布：https://github.com/boxiaolanya2008/claudecode-plus-mod
+   （默认分支 `master`）。日常更新推送：
 
 ```bash
-git remote add origin git@github.com:<owner>/claudecode-plus-mod.git
-git push -u origin main
+git add -A && git commit -m "..." && git push
 ```
 
 2. 添加 marketplace（只需一次）：
 
 ```
-/plugin marketplace add <owner>/claudecode-plus-mod
+/plugin marketplace add boxiaolanya2008/claudecode-plus-mod
 ```
 
 或命令行：
 
 ```bash
-claude plugin marketplace add <owner>/claudecode-plus-mod
+claude plugin marketplace add boxiaolanya2008/claudecode-plus-mod
 ```
 
 3. 一次装全（推荐）：
@@ -62,7 +61,7 @@ claude plugin install prompt-shield@claudecode-plus-mod --scope user
 
 ```json
 {
-  "extraKnownMarketplaces": ["<owner>/claudecode-plus-mod"]
+  "extraKnownMarketplaces": ["boxiaolanya2008/claudecode-plus-mod"]
 }
 ```
 
