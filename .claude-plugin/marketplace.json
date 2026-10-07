@@ -9,8 +9,8 @@
   "plugins": [
     {
       "name": "plus",
-      "description": "All claudecode-plus-mod Mods in one install: prompt-shield, cache-guard, human-tone and clear-intent.",
-      "version": "0.5.1",
+      "description": "All claudecode-plus-mod Mods in one install: prompt-shield, cache-guard, human-tone, clear-intent and agent-charter.",
+      "version": "0.6.0",
       "source": "./bundle",
       "category": "productivity"
     },    {
@@ -40,6 +40,13 @@
       "version": "0.1.1",
       "source": "./mods/clear-intent",
       "category": "productivity"
+    },
+    {
+      "name": "agent-charter",
+      "description": "Pin an agent charter into the system prompt: skills-first workflow, per-language comment standards, commit format and branch discipline.",
+      "version": "0.1.0",
+      "source": "./mods/agent-charter",
+      "category": "development"
     }
   ]
 }

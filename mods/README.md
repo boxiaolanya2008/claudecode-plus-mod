@@ -1,8 +1,8 @@
 # Mods
 
 每个子目录是一个独立的 Mod（Claude Code 插件，行为由 `register(on, options)`
-函数钩子实现）。当前有四个：`prompt-shield`、`cache-guard`、`human-tone`、
-`clear-intent`，另有聚合包 `plus`（`bundle/`，脚本生成，一条命令装全）。
+函数钩子实现）。当前有五个：`prompt-shield`、`cache-guard`、`human-tone`、
+`clear-intent`、`agent-charter`，另有聚合包 `plus`（`bundle/`，脚本生成，一条命令装全）。
 
 新增一个 Mod 时：
 

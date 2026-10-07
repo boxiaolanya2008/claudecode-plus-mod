@@ -1,7 +1,7 @@
 {
   "name": "plus",
-  "version": "0.5.1",
-  "description": "All claudecode-plus-mod Mods in one install: prompt-shield, cache-guard, human-tone and clear-intent.",
+  "version": "0.6.0",
+  "description": "All claudecode-plus-mod Mods in one install: prompt-shield, cache-guard, human-tone, clear-intent and agent-charter.",
   "author": {
     "name": "claudecode-plus-mod"
   }

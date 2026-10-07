@@ -1,0 +1,8 @@
+{
+  "name": "agent-charter",
+  "version": "0.1.0",
+  "description": "Pin an agent charter into the system prompt: skills-first workflow, per-language comment standards, commit format and branch discipline.",
+  "author": {
+    "name": "claudecode-plus-mod"
+  }
+}

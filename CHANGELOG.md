@@ -1,6 +1,11 @@
 # Changelog
 
-## 0.5.1
+## 0.6.0
+
+- 新增 `agent-charter`：智能体宪章（skill 优先、九语言注释规范、
+  `[模块][n/m]` 提交格式、一事一分支纪律），默认追加模式，
+  `charterMode: replace` 可全覆盖（后果自负）。
+- `plus` 聚合包同步到 0.6.0，一条命令装全五个 Mod。
 
 - 四个 Mod 全部加上 `session.start` 就绪声明：启动即工作证明，默认走
   debug 通道零打扰，`verbose: true` 可见；顺带给每个 Mod 补了启动透传测试。

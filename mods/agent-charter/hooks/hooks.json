@@ -1,0 +1,4 @@
+{
+  "description": "Agent charter: appends one static charter section to the system prompt, or replaces the whole composition in replace mode.",
+  "modules": ["./register.ts"]
+}

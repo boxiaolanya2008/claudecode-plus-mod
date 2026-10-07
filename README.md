@@ -10,6 +10,7 @@ Claude Code Mod 合集：以函数钩子（`register(on, options)`）实现、�
 | `cache-guard` | 前缀稳定、compact 证据柜、逐轮防丢审计、每轮命中报告 | `mods/cache-guard/` |
 | `human-tone` | system prompt 风格宪法：说人话，无吹捧克制格式 | `mods/human-tone/` |
 | `clear-intent` | 每轮意图确认协议，模糊输入先复述等确认 | `mods/clear-intent/` |
+| `agent-charter` | 智能体宪章：skill 优先、分语言注释规范、提交格式、分支纪律 | `mods/agent-charter/` |
 
 加新 Mod 见 `mods/README.md`；加完后重跑 `./scripts/build-bundle.ps1`，
 让聚合包同步。改代码必同步改对应 README 和根 `CHANGELOG.md`。
